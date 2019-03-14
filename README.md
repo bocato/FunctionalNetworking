@@ -54,37 +54,4 @@ enum PokemonsRequest: Request {
 
 ## Service
 
-
-```swift
-struct Pokemon: Codable {
-    let name: String
-}
-
-class PokemonService: Service {
-    
-    private(set) var dispatcher: NetworkDispatcher
-    
-    required init(dispatcher: NetworkDispatcher) {
-        self.dispatcher = dispatcher
-    }
-    
-    func loadPokemonsList(completion: @escaping (_ response: [Pokemon]?, _ error: NetworkingError?) -> Void) {
-        
-        let request: PokemonsRequest = .list(limit: 50)
-        let operation = NetworkingOperation<PokemonsRequest, [Pokemon]>(request: request)
-        
-        operation.execute(in: dispatcher) { (result, networkingError) in
-            
-            guard networkingError == nil else {
-                completion(nil, networkingError)
-                return
-            }
-            
-            completion(result, nil)
-            
-        }
-        
-    }
-    
-}
-
+// TODO: Document
