@@ -10,6 +10,21 @@
 		E574566A223A8EAC0049AFC0 /* FunctionalNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5745660223A8EAC0049AFC0 /* FunctionalNetworking.framework */; };
 		E574566F223A8EAC0049AFC0 /* FunctionalNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574566E223A8EAC0049AFC0 /* FunctionalNetworkingTests.swift */; };
 		E5745671223A8EAC0049AFC0 /* FunctionalNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E5745663223A8EAC0049AFC0 /* FunctionalNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5745683223A8F1F0049AFC0 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745682223A8F1F0049AFC0 /* Promise.swift */; };
+		E5745685223A8F270049AFC0 /* URLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745684223A8F270049AFC0 /* URLUtil.swift */; };
+		E5745687223A8F2F0049AFC0 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745686223A8F2F0049AFC0 /* NetworkingService.swift */; };
+		E574568A223A8F3A0049AFC0 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745688223A8F3A0049AFC0 /* Parser.swift */; };
+		E574568B223A8F3A0049AFC0 /* DefaultParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745689223A8F3A0049AFC0 /* DefaultParser.swift */; };
+		E574568F223A8F430049AFC0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574568C223A8F430049AFC0 /* Request.swift */; };
+		E5745690223A8F430049AFC0 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574568D223A8F430049AFC0 /* NetworkingError.swift */; };
+		E5745691223A8F430049AFC0 /* NetworkingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574568E223A8F430049AFC0 /* NetworkingResponse.swift */; };
+		E5745693223A8F4B0049AFC0 /* URLSessionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745692223A8F4B0049AFC0 /* URLSessionDispatcher.swift */; };
+		E5745698223A8F5A0049AFC0 /* NetworkingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745695223A8F5A0049AFC0 /* NetworkingConfiguration.swift */; };
+		E5745699223A8F5A0049AFC0 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745696223A8F5A0049AFC0 /* NetworkDispatcher.swift */; };
+		E574569A223A8F5A0049AFC0 /* NetworkingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5745697223A8F5A0049AFC0 /* NetworkingOperation.swift */; };
+		E574569D223A8F8B0049AFC0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574569C223A8F8B0049AFC0 /* Result.swift */; };
+		E57456A1223A8FA40049AFC0 /* NSErrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574569F223A8FA30049AFC0 /* NSErrorExtensions.swift */; };
+		E57456A2223A8FA40049AFC0 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57456A0223A8FA30049AFC0 /* DataExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +44,21 @@
 		E5745669223A8EAC0049AFC0 /* FunctionalNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E574566E223A8EAC0049AFC0 /* FunctionalNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalNetworkingTests.swift; sourceTree = "<group>"; };
 		E5745670223A8EAC0049AFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5745682223A8F1F0049AFC0 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		E5745684223A8F270049AFC0 /* URLUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLUtil.swift; sourceTree = "<group>"; };
+		E5745686223A8F2F0049AFC0 /* NetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		E5745688223A8F3A0049AFC0 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		E5745689223A8F3A0049AFC0 /* DefaultParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultParser.swift; sourceTree = "<group>"; };
+		E574568C223A8F430049AFC0 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		E574568D223A8F430049AFC0 /* NetworkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		E574568E223A8F430049AFC0 /* NetworkingResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingResponse.swift; sourceTree = "<group>"; };
+		E5745692223A8F4B0049AFC0 /* URLSessionDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionDispatcher.swift; sourceTree = "<group>"; };
+		E5745695223A8F5A0049AFC0 /* NetworkingConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingConfiguration.swift; sourceTree = "<group>"; };
+		E5745696223A8F5A0049AFC0 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
+		E5745697223A8F5A0049AFC0 /* NetworkingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingOperation.swift; sourceTree = "<group>"; };
+		E574569C223A8F8B0049AFC0 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E574569F223A8FA30049AFC0 /* NSErrorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorExtensions.swift; sourceTree = "<group>"; };
+		E57456A0223A8FA30049AFC0 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +101,14 @@
 		E5745662223A8EAC0049AFC0 /* FunctionalNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				E5745663223A8EAC0049AFC0 /* FunctionalNetworking.h */,
-				E5745664223A8EAC0049AFC0 /* Info.plist */,
+				E574569E223A8F970049AFC0 /* Extensions */,
+				E574569B223A8F7D0049AFC0 /* Types */,
+				E5745680223A8F080049AFC0 /* Utility */,
+				E574567F223A8F010049AFC0 /* Protocols */,
+				E574567E223A8EFA0049AFC0 /* Parser */,
+				E574567D223A8EF30049AFC0 /* Models */,
+				E574567C223A8ED70049AFC0 /* Dispatcher */,
+				E574567B223A8EC00049AFC0 /* Supporting Files */,
 			);
 			path = FunctionalNetworking;
 			sourceTree = "<group>";
@@ -84,6 +120,87 @@
 				E5745670223A8EAC0049AFC0 /* Info.plist */,
 			);
 			path = FunctionalNetworkingTests;
+			sourceTree = "<group>";
+		};
+		E574567B223A8EC00049AFC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5745663223A8EAC0049AFC0 /* FunctionalNetworking.h */,
+				E5745664223A8EAC0049AFC0 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E574567C223A8ED70049AFC0 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				E5745694223A8F4E0049AFC0 /* Commons */,
+				E5745692223A8F4B0049AFC0 /* URLSessionDispatcher.swift */,
+			);
+			path = Dispatcher;
+			sourceTree = "<group>";
+		};
+		E574567D223A8EF30049AFC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E574568D223A8F430049AFC0 /* NetworkingError.swift */,
+				E574568E223A8F430049AFC0 /* NetworkingResponse.swift */,
+				E574568C223A8F430049AFC0 /* Request.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E574567E223A8EFA0049AFC0 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				E5745689223A8F3A0049AFC0 /* DefaultParser.swift */,
+				E5745688223A8F3A0049AFC0 /* Parser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		E574567F223A8F010049AFC0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E5745686223A8F2F0049AFC0 /* NetworkingService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E5745680223A8F080049AFC0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E5745684223A8F270049AFC0 /* URLUtil.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E5745694223A8F4E0049AFC0 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				E5745696223A8F5A0049AFC0 /* NetworkDispatcher.swift */,
+				E5745695223A8F5A0049AFC0 /* NetworkingConfiguration.swift */,
+				E5745697223A8F5A0049AFC0 /* NetworkingOperation.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		E574569B223A8F7D0049AFC0 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				E574569C223A8F8B0049AFC0 /* Result.swift */,
+				E5745682223A8F1F0049AFC0 /* Promise.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		E574569E223A8F970049AFC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E57456A0223A8FA30049AFC0 /* DataExtensions.swift */,
+				E574569F223A8FA30049AFC0 /* NSErrorExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +265,7 @@
 				TargetAttributes = {
 					E574565F223A8EAC0049AFC0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					E5745668223A8EAC0049AFC0 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +312,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5745698223A8F5A0049AFC0 /* NetworkingConfiguration.swift in Sources */,
+				E574569D223A8F8B0049AFC0 /* Result.swift in Sources */,
+				E574568B223A8F3A0049AFC0 /* DefaultParser.swift in Sources */,
+				E57456A1223A8FA40049AFC0 /* NSErrorExtensions.swift in Sources */,
+				E574568F223A8F430049AFC0 /* Request.swift in Sources */,
+				E5745699223A8F5A0049AFC0 /* NetworkDispatcher.swift in Sources */,
+				E5745691223A8F430049AFC0 /* NetworkingResponse.swift in Sources */,
+				E574568A223A8F3A0049AFC0 /* Parser.swift in Sources */,
+				E57456A2223A8FA40049AFC0 /* DataExtensions.swift in Sources */,
+				E5745690223A8F430049AFC0 /* NetworkingError.swift in Sources */,
+				E5745687223A8F2F0049AFC0 /* NetworkingService.swift in Sources */,
+				E5745683223A8F1F0049AFC0 /* Promise.swift in Sources */,
+				E574569A223A8F5A0049AFC0 /* NetworkingOperation.swift in Sources */,
+				E5745685223A8F270049AFC0 /* URLUtil.swift in Sources */,
+				E5745693223A8F4B0049AFC0 /* URLSessionDispatcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +474,7 @@
 		E5745675223A8EAC0049AFC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,7 +482,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FunctionalNetworking/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FunctionalNetworking/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -358,6 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bocato.FunctionalNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +501,7 @@
 		E5745676223A8EAC0049AFC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,7 +509,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FunctionalNetworking/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FunctionalNetworking/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -391,6 +527,7 @@
 		E5745678223A8EAC0049AFC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJ52F3Z7TA;
 				INFOPLIST_FILE = FunctionalNetworkingTests/Info.plist;
@@ -409,6 +546,7 @@
 		E5745679223A8EAC0049AFC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJ52F3Z7TA;
 				INFOPLIST_FILE = FunctionalNetworkingTests/Info.plist;
